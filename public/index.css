@@ -1,0 +1,81 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: teal;
+    color: aliceblue;
+}
+
+h1 {
+    padding: 20px;
+    
+}
+
+main {
+    display: flex;
+    background-color: aliceblue;
+}
+
+aside {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+input{
+    background-color: rgb(230, 237, 252);
+    border-radius: 5%;
+}
+
+select{
+    background-color: rgb(230, 237, 252);
+    border-radius: 5%;
+}
+
+#radioContainer{
+    display: flex;
+    justify-content: space-evenly;
+   
+    width: 200px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+
+}
+
+.country-card {
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: teal;
+    padding: 20px;
+    margin: 20px;
+}
+
+button{
+    background-color: rgb(18, 65, 65);
+    color: aliceblue;
+}
+
+
+.country-card > h2 {
+    margin-bottom: 10px;
+}
+
+.country-card > button {
+    margin-top: 10px;
+    padding: 2px 10px;
+}
